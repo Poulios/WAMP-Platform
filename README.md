@@ -12,23 +12,30 @@
   1. Height
   1. Length
   
-  <br/>    
+   
   **Check some work**
-  <br/>
+<div class="paragraph"><p> <br>
+<br></p></div>
   
 <p align="center">
   <img src="/pics/1st_page.png" width="750" height="350" title="1st_page">
 </p>
+<div class="paragraph"><p> <br>
+<br></p></div>
 <p>  
  <img src="/pics/records_view.png" width="750" height="200" title="records_view">
 </p>
+<div class="paragraph"><p> <br>
+<br></p></div>
 <p>
  <img src="/pics/db_structure.png" width="750" title="DB">  
 </p>  
-<br/>
-<br/>
+
+<div class="paragraph"><p> <br>
+<br></p></div>
 You have the ability to **edit** the recorded entries, **update** their properties and also to **overview** them with a compact way.
-<br/>
+<div class="paragraph"><p> <br>
+<br></p></div>
 
 We used:
 - [x] WAMP Server 3.1.9 64bit
@@ -48,7 +55,10 @@ We used:
   <img src="/pics/B.png" width="100" height="100" title="BOOTSTRAP_LOGO">
 </p>
 
+<div class="paragraph"><p> <br>
+<br></p></div>
 
-
-*Gime them a try!!!*<br/>
+*Gime them a try!!!*
+<div class="paragraph"><p> <br>
+<br></p></div>
 :ok_hand:
