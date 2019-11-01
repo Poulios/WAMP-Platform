@@ -1,0 +1,59 @@
+-- phpMyAdmin SQL Dump
+-- version 4.8.5
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1:3306
+-- Generation Time: Oct 30, 2019 at 05:01 PM
+-- Server version: 5.7.26
+-- PHP Version: 7.2.18
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `finds`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `records`
+--
+
+DROP TABLE IF EXISTS `records`;
+CREATE TABLE IF NOT EXISTS `records` (
+  `ID` int(25) NOT NULL AUTO_INCREMENT,
+  `Category` varchar(50) CHARACTER SET utf8 NOT NULL,
+  `Title` varchar(50) CHARACTER SET utf8 NOT NULL,
+  `Estimated_Time` varchar(50) CHARACTER SET utf8 NOT NULL,
+  `Archaeological_Place` varchar(50) CHARACTER SET utf8 NOT NULL,
+  `Description` varchar(5000) CHARACTER SET utf8 NOT NULL,
+  `Height` varchar(50) CHARACTER SET utf8 NOT NULL,
+  `Length` varchar(50) CHARACTER SET utf8 NOT NULL,
+  `Αrchaeologist_Name` varchar(50) CHARACTER SET utf8 NOT NULL,
+  `Αrchaeologist_Surname` varchar(50) CHARACTER SET utf8 NOT NULL,
+  `Inspectorate_Οf_Monuments` varchar(50) CHARACTER SET utf8 NOT NULL,
+  `Submited_Date` varchar(50) CHARACTER SET utf8 NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `records`
+--
+
+INSERT INTO `records` (`ID`, `Category`, `Title`, `Estimated_Time`, `Archaeological_Place`, `Description`, `Height`, `Length`, `Αrchaeologist_Name`, `Αrchaeologist_Surname`, `Inspectorate_Οf_Monuments`, `Submited_Date`) VALUES
+(1, 'Amphoreas', 'Amphoreas', '760-750 B.C.', 'Ceramic', 'The vase is entirely decorated with successive parallel horizontal geometric friezes of meanders and rhombs. The main frieze contains two images framed by the two small handles. Contains a total of 19 human silhouettes. The image on the front is longer than the image on the back. It is framed by two small vertical frets. It depicts a depiction of the intent and lament of a dead woman, as we deduce from her skirt. It is placed in a horizontal bed with a funeral bed. In front of the bed, two kneeling women mourn to the right, while a man and a woman sit to the right, mourning to the left. Even more to the right are five women, and two men mourn, and one child touches the bed of the dead with his hand. To the left of the bed are six other women and a child who weeps, and the child touches the bed with his hand. Men are distinguished by the sword and knife worn in the middle. The representation on the back is flanked by two large stars. The neck of the vessel contains two depictions of grazing deer and resting goats.', '1.55', '0.74', 'Βαλέριος', 'Stais', 'C\' Ephorate', '31-08-2019 20:22:43'),
+(2, 'Grave', 'Mycenaean Grave', '1400-1200 B.C.', 'Mycenaean cemetery of Nedea ', 'Aidonia, a major center of the area during the Mycenaean period (1700-11100 BC) \"became known after the extensive Mycenaean cemetery, probably in the winter of 1976-77.\" These are graves carved into the rock, consisting of three sections, the road, the entrance and the burial chamber. Few of the Adononian chamber tombs were found undisturbed, while one of the captives maintained a pit that rescued an astonishing set of jewels. The remains from the excavation documented their association with a set of Mycenaean jewels, which appeared for sale in a New York art gallery in 1993. The first contained the roof of the chamber and contained two primary burials and bones of 14 more , in spades. The second did not maintain a roof, as it had collapsed as far back as the Mycenaean period, over and above which three primary burials were found. The clay pots and figurines, as well as other small objects, such as buttons, found in the two tombs are contrasted as marked \"towards the burials of the early Mycenaean tombs (ca. 1,600 - 1,400 BC), which were investigated in previous years in Iridescent and included table and storage vessels, weapons and prestigious objects. ', '6', '17', 'Caliope', 'Crystal - Votsi', 'Ephorate of Antiquities of Corinth', '31-08-2019 20:43:11');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
