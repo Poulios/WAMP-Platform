@@ -33,6 +33,7 @@
 
 <div class="paragraph"><p> <br>
 <br></p></div>
+
 You have the ability to **edit** the recorded entries, **update** their properties and also to **overview** them with a compact way.
 <div class="paragraph"><p> <br>
 <br></p></div>
@@ -59,6 +60,5 @@ We used:
 <br></p></div>
 
 *Gime them a try!!!*
-<div class="paragraph"><p> <br>
-<br></p></div>
+
 :ok_hand:
