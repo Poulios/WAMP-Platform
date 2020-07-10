@@ -1,6 +1,6 @@
 # WAMP-Platform
 
-### Create an Entries Log File with WAMP
+### Creation of an Entries Catalog File with WAMP
 
 ```Record you odjects' (archeological findings) properties. Typical properties could be: ```
   1. No
